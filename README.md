@@ -9,32 +9,37 @@ Jupyter Notebook not working [RESOLVED]
 Click run for Notebook with 1 cell with print("hi"), and cell outputs hi
 ## Result
 dll not found
-## Cause
-download sqlite.dll missing
-## Method of Discovery
+## Solution Summary
+- download dll
+- move to ... ~\Anaconda3\DLLs
+- Create Jupyter notebook
+## Detailed Solution
+### Cause
+sqlite.dll missing
+### Method of Discovery
 - Click log on popup aout kernel couldn't find dll
 - Go through OUTPUT which opens
 - Find sqlite
-## Source
+### Source
 - [Unable to import sqlite3 using Anaconda Python](https://stackoverflow.com/questions/54876404/unable-to-import-sqlite3-using-anaconda-python)
-## Fix
+### Fix
 go to:
-### site:
+#### site:
 - [sqlite](https://www.sqlite.org/download.html)
 
-#### heading:
+##### heading:
 <b><u>Precompiled Binaries for Windows</u></b>
 - click download link
 - [sqlite-dll-win64-x64-3410200.zip](https://www.sqlite.org/2023/sqlite-dll-win64-x64-3410200.zip)
 - download
 - extract
 
-### open Windows Explorer:
+#### open Windows Explorer:
 C:\Users\YOURUSER\Anaconda3\DLLs
 
-### drag file from extracted folder to Anaconda3\DLLs folder
+#### drag file from extracted folder to Anaconda3\DLLs folder
 
-## Test
+### Test
 - VSCode
 - Ctrl + Shift + P
 - Create Jupyter Notebook
