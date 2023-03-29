@@ -1,6 +1,8 @@
 # Bug-Fix
 Fixed bugs
 
+-----------------------------------------------
+
 ## Issue
 Jupyter Notebook not working [RESOLVED]
 ## Expected Behaviour
@@ -40,3 +42,5 @@ C:\Users\YOURUSER\Anaconda3\DLLs
 - Click Play button Run All
 
 ## [RESOLVED]
+
+-----------------------------------------------
